@@ -1,0 +1,194 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: antiquewhite; */
+    /* font-family: Orbitron; */
+    background-image: url("macos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-1{
+    /* color: aliceblue !important; */
+    /* position: relative; */
+    margin-left: 10%; 
+    margin-right: 10% !important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+}  
+.blur{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.card img{
+  opacity: 75%;
+}
+.img{
+  width: 250px;
+  border-radius:100%;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  transition: border-radius 1s;
+}
+.img:hover{
+  color: white;
+  border-radius: 12px !important;  
+}
+/* S */
+.size{
+  margin-left: 10px !important;
+  margin-right: 10px !important; 
+  /* font-size: 25px !important; */
+  /* transition: font-size 0.1s;  */
+  /* position: fixed !important; */
+}
+.size:hover{
+  color: rgb(255, 0, 115) !important;
+  opacity: 50%;
+  /* padding-top: 10px; */
+  /* font-size: 40px !important; */
+}
+.header{
+  text-align: center;
+  padding-top: 40px;
+}
+.btop{
+padding-top: 20px;
+padding-bottom: 5px;
+}
+.btom{ 
+  padding-bottom: 20px;
+}
+.card{
+  border-radius:12px !important;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
+  /* padding-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 1px; */
+}  
+.zx{
+text-align: center;
+  padding: 5% 5% 5% 5%;
+  font-size: 50px !important;
+}
+.badan{
+    /* background: #fff !important; */
+    /* opacity: 75%; */
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;  
+    text-align: center;
+    color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.s{
+    /* color: whitesmoke; */
+    background: transparent !important;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ms{
+    margin-left: 10px !important;
+}
+ma{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* GALLERY */
+.gallery-section{
+    width: 100%;
+    padding: 60px 0;
+    background: transparent !important;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+  }
+  
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .gallery-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  .border{
+    width: 180px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+  }
+  
+  .gallery-section .gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .gallery-section .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+  }
+  
+  .gallery-section .image:hover img{
+    transform: scale(1.4) rotate(15deg);
+  }
+  
+  @media screen and (max-width:960px) {
+    .gallery-section .image{
+      flex: 33.33%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .gallery-section .image{
+      flex: 50%;
+    }
+  }
+  
+  @media screen and (max-width:480px) {
+    .gallery-section .image{
+      flex: 100%;
+    }
+  }
+  /* END */
+
+  .countdown {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.countdown span {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
