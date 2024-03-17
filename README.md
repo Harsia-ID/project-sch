@@ -9,3 +9,9 @@ This assignment asks students to create a simple website using PHP, HTML, and CS
 ## Authors
 
 - [@Harsia-ID](https://github.com/Harsia-ID)
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/index.png)
+![App Screenshot](https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/about.png)
+![App Screenshot](https://raw.githubusercontent.com/Harsia-ID/project-sch/main/screenshot/shop.png)
